@@ -6,9 +6,9 @@ def main():
     st.title('Diabetes Prediction Web App')
     st.header('Welcome to my project!')
 
-    st.markdown("""The aim of this project is to analyze the **PIMA Indian Diabetes Dataset** and use Support Vector Machine for prediction.""")
+    st.markdown("""The aim of this project is to analyze the **PIMA Indian Diabetes Dataset** and use Support Vector Machine and Random Forest Classfier for prediction.""")
 
-    df=pd.read_csv(r'C:/Users/prasa/OneDrive/Desktop/Diabetes/diabetesdataset.csv')
+    df=pd.read_csv(r'diabetesdataset.csv')
 
     st.subheader('Training Data')
     st.write(df.describe())
