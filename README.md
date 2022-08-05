@@ -104,3 +104,10 @@ docker push diabetesproject.azurecr.io/myimage:v1
 - Select “Review + Create”.
 
 Awesome! Now you can see your app running on Azure by browsing to * http://<app-name>.azurewebsites.net *.
+
+## Demo Video
+
+https://user-images.githubusercontent.com/91541977/183058170-4fad8d01-f3ab-4c51-ab63-8418c32c5d06.mp4
+
+
+
